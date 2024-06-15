@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: InputManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":250.8681,"y":129.5917},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-144.0,"y":-26.0},"guid":"9f133415-0ef5-4824-abcc-cfc430aaa27f","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"HorizontalMovement","$type":"System.String"}},"position":{"x":170.0,"y":24.0},"guid":"44e74aae-d94c-4d9f-93b5-4169d357b5d2","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"chainable":false,"parameterNames":["axisName"],"member":{"name":"GetAxisRaw","parameterTypes":["System.String"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%axisName":{"$content":"Horizontal","$type":"System.String"}},"position":{"x":-104.0,"y":77.0},"guid":"21c0f43f-a210-4e08-b6c6-c5cc6c7cd7c3","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"coroutine":false,"defaultValues":{"buttonName":{"$content":"Jump","$type":"System.String"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":381.0,"y":3.0},"guid":"af0cb7da-5712-4a9b-b8cc-aa0b8c7d7af2","$version":"A","$type":"Unity.VisualScripting.OnButtonInput","$id":"17"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Jump","$type":"System.String"},"target":null},"position":{"x":534.0,"y":137.0},"guid":"cc34db6b-8ddf-4b6e-bc36-d97e1e32039a","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"16863879-1172-4ae1-b64a-b349c2de7921","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"70a5c7be-d328-4887-9a6c-12ca9109f703","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"603bb028-9478-4f5f-b20c-8603e20f5048","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
